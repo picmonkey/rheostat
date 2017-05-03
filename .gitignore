@@ -1,6 +1,6 @@
-lib
+# lib
 node_modules
 npm-debug.log
 coverage
-build
+# build
 .nyc_output
