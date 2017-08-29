@@ -586,7 +586,7 @@ class Rheostat extends React.Component {
     this.setState({
       handlePos: nextValues.map(value => this.props.algorithm.getPosition(value, min, max)),
       values: nextValues,
-    }, () => this.fireChangeEvent());
+    });
   }
 
   render() {
